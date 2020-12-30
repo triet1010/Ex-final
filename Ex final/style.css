@@ -1,0 +1,181 @@
+header{
+    display: flex;
+    background-color: aquamarine;
+    position: fixed;
+    width: 100%;
+    font-family: 'Andika New Basic', sans-serif;
+    top: 0px;
+    margin-bottom: 100px;
+
+}
+ul{
+    display: flex;
+
+}
+img{
+    width: 75px;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    text-decoration: none;
+}
+body{
+    /* background-image: url(https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg); */
+    background-color: white;
+}
+footer{
+    background-color: aquamarine;
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+.content1{
+    display: flex;
+    background-color: tomato;
+}
+.letter{
+    width: 50%;
+    height: 550px;
+}
+.img{
+    height: 550px;
+    width: 50%;
+
+}
+.img img{
+    width:45%;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+.letter h1, .letter h2{
+    color: black;
+    font-family: 'Andika New Basic', sans-serif;
+    margin-left: 20px;
+}
+.letter h1{
+    color: black;
+    font-family: 'Andika New Basic', sans-serif;
+    font-size: 35px;
+}
+.letter a{
+    padding: 15px;
+    background-color: white;
+    margin-left: 50%;
+    text-decoration: none;
+    margin-top: 100px;
+}
+.noidung {
+    padding: 15px;
+}
+.content2{
+    background-color: yellowgreen;
+    margin-top: -20px;
+    display: flex;
+
+}
+header ul{
+    font-size: large;
+}
+.content3 h3, .content3 h4{
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+}
+.img3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.img3 img{
+    width: 16.5%;
+}
+.h1{
+    margin-top: 100px;
+}
+.Theloai{
+    display:flex ;
+    margin-top: 50px;
+    background-color: lightgreen;
+}
+.Theloai .Contenttheloai{
+    padding-left: 20px;
+}
+.Theloai .img{
+    
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+    
+}
+
+.container input{
+    width: 35%;
+    height: 40px;
+    
+}
+
+.container textarea{
+    width: 40%;
+    height: 35px;
+}
+
+.container .Sumbit{
+    width: 80px;
+}
+
+
+.container label{
+    color: rgb(11,58,100)
+}
+header ul li a{
+    text-decoration: none;
+}
+header ul li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.AvaMax{
+    background-color: lightgreen;
+    display: flex;
+}
+.music{
+    width: 30%;
+}
+.dexuat{
+    background-color: lightskyblue;
+}
+.music div{
+    width: 100%;
+}
+
+.music div img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+h1{
+    color: red;
+}
+.music h1{
+    color: black;
+}
+.container{
+    background-color: lightgreen;
+}
